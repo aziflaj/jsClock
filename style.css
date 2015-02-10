@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#clock {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    
+    /* center: don't ask me how! */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
